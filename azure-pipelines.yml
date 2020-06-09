@@ -3,11 +3,22 @@
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
+strategy:
+  matrix:
+    linux:
+      imageName: 'ubuntu-16.04'
+    macos:
+      imageName: 'macos-10.14'
+    windows:
+      imageName: 'vs2017-win2016'
+  maxParallel: 3
+
+
 trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: $(imageName)
 
 variables:
   buildConfiguration: 'Release'
