@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/mhassas18/ASP.Net%20Core%20Example/_apis/build/status/arsha2000.pipelines-dotnet-core?branchName=master)](https://dev.azure.com/mhassas18/ASP.Net%20Core%20Example/_build/latest?definitionId=2&branchName=master)
+<img src="https://dev.azure.com/mhassas18/ASP.Net%20Core%20Example/_apis/build/status/arsha2000.pipelines-dotnet-core?branchName=master">
 
 
 # Sample ASP.NET Core application for Azure Pipelines docs
